@@ -35,7 +35,8 @@ ul#listitem{
   list-style: none; border-bottom: 2px solid #ffffff; background-color: palegreen; margin: 0px;
   display: inline-block; width: 100%; padding: 0;  vertical-align: middle; overflow: auto;
 }
-ul.listitem.mng{ font-weight: bold; color: #e74c3c;}
+ul.listitem.mng{ font-weight: bold; color: #e74c3c; margin: 0px; padding: 0px;}
+ul.listitem.mng li{color:red;  text-transform: uppercase; font-weight: bold;  display: inline-block; width: 75px; margin-bottom: 5px;}
 ul#listitem li{ color: white; font-weight: bold;  display: inline-block; width: 75px; vertical-align: text-top;  padding-bottom: 5px; margin-bottom: 5px;}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

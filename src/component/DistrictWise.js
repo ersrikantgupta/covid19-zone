@@ -66,16 +66,27 @@ componentDidMount(){
                            
                 <p className="state">Updated By Srikant(kasba,purnia) :- {globals.lastupdated}</p>
              
-               
+                <ul className="listitem mng">
+                        <li>S. NO.</li>
+                            <li> state</li>
+                            <li> district</li>
+                            <li> zone</li>
+                            
+                            {/* <li > {post.lastupdated}</li> */}
+                           
+
+                        </ul>
            
                     </div> : null}
+
+
                 
                 {
                    
                      posts.length ?
                     posts.map((post, index) => 
                     <div key={post.districtcode}>
-                
+                 
                         <ul className={post.zone} id="listitem">
                         <li className="state">{index}.</li>
                             <li className="state" > {post.state}</li>
